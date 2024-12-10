@@ -1,0 +1,20 @@
+---
+link-citations: true
+output:
+  html_document:
+    number_sections: false
+    anchor_sections: true
+    pandoc_args: --shift-heading-level-by=-1
+---
+
+## Atlas of variation in spoken varieties of Russian
+
+Here will be long text
+
+### How to cite
+
+G. Moroz, A. Grishanova, N. Koshelyuk, A. Yakovleva, S. Zemicheva, C. Naccarato. Atlas of variation patterns in spoken corpora of Russian. Moscow: Linguistic Convergence Laboratory, HSE University.
+  
+### Financial support
+
+The study conducted in Linguistic Convergence Laboratory and was funded by the Russian Science Foundation, project No.  24-28-01097, <https://rscf.ru/en/project/24-28-01097/>
