@@ -52,7 +52,7 @@ db |>
   scale_fill_manual(name = NULL, values = c('#c68958', '#9AC0CD')) +
   theme_enhance_waffle()+
   theme_void()+
-  theme(legend.position = 'top', text = element_text(size = 20))
+  theme(legend.position = 'top', text = element_text(size = 15))
 ```
 
 ### Map
@@ -100,7 +100,7 @@ db |>
   scale_x_continuous(labels = scales::percent)+
   labs(x = NULL, y = NULL)+
   theme_minimal()+
-  theme(axis.text.y = element_blank(), text = element_text(size = 20))
+  theme(axis.text.y = element_blank(), text = element_text(size = 15))
 ```
 
 ### Raw data

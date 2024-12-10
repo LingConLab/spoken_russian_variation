@@ -10,6 +10,7 @@ format:
     warning: false
     message: false
     fig-width: 11
+    fig-height: 9
     embed-resources: false
     page-layout: full
 
