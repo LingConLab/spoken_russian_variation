@@ -1,0 +1,18 @@
+project:
+  output-dir: ./docs
+  render:
+    - "*.qmd"
+
+website:
+  title: "Атлас вариативности устной речи в регионах России"
+  navbar:
+    left:
+      - href: index.qmd
+        text: главная
+      - href: features.qmd
+        text: признаки
+    right:
+      - text: "en"
+        href: ./en/index.html
+
+lang: ru

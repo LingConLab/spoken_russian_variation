@@ -170,4 +170,6 @@ walk(qmd_creation$feature_id, function(i){
 
 # RENDER ------------------------------------------------------------------
 
-quarto::quarto_render()
+library(quarto)
+quarto_render(profile = "russian")
+quarto_render(profile = "english")

@@ -3,7 +3,57 @@ output: html_document
 editor_options: 
   chunk_output_type: console
 ---
-# Features
+
+::: {.content-visible when-profile="russian"} 
+
+## Признаки
+
+```{r}
+#| echo: false
+#| message: false
+
+library(tidyverse)
+library(DT)
+
+# table with features
+db <- readxl::read_xlsx("data/data.xlsx")
+
+db |>
+  mutate(standardness = if_else(non_standard == 0, 'носители, недопускающие нелитературные формы', 'носители, допускающие нелитературные формы'))  |> 
+  group_by(feature_id) |> 
+  mutate(fully_st = sum(non_standard == 0),
+         n_fully_st = sum(non_standard != 0),
+         standardness = str_c(n_fully_st, " из ", fully_st+n_fully_st, " носителей"),
+         feature_id0 = sprintf(str_c("%0", nchar(max(feature_id)), "d_"), feature_id),
+         filename = str_replace_all(feature_title, "[\\s:\\./]", "_"),
+         filename = str_remove_all(filename, "\\*"),
+         filename = str_to_lower(filename),
+         filename = str_c(feature_id0, filename),
+         feature_title = str_c("<a href='",
+                               filename,
+                               ".html'>",
+                               feature_title,
+                               "</a>"),
+         for_sorting = n_fully_st/fully_st) |>
+  arrange(-for_sorting) |> 
+  select(feature_title, standardness, contributor) |>
+  rename(`название признака` = feature_title,
+         `литературность` = standardness,
+         `исследователи` = contributor) |> 
+  distinct() |>
+  DT::datatable(filter = 'top', 
+                escape = FALSE,
+                rownames = FALSE,
+                options = list(pageLength = 150, 
+                               autoWidth = TRUE,
+                               dom = 'fltpi'))
+```
+
+:::
+
+::: {.content-visible when-profile="english"} 
+
+## Features
 
 ```{r}
 #| echo: false
@@ -20,7 +70,7 @@ db |>
   group_by(feature_id) |> 
   mutate(fully_st = sum(non_standard == 0),
          n_fully_st = sum(non_standard != 0),
-         standardness = str_c(n_fully_st, " out of ", fully_st, " speakers"),
+         standardness = str_c(n_fully_st, " out of ", n_fully_st+fully_st, " speakers"),
          feature_id0 = sprintf(str_c("%0", nchar(max(feature_id)), "d_"), feature_id),
          filename = str_replace_all(feature_title, "[\\s:\\./]", "_"),
          filename = str_remove_all(filename, "\\*"),
@@ -44,3 +94,4 @@ db |>
                                dom = 'fltpi'))
 ```
 
+:::

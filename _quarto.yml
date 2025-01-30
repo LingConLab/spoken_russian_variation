@@ -1,22 +1,17 @@
 project:
-  title: "Atlas of variation in spoken varieties of Russian"
   type: website
-  output-dir: ./docs
-  
-format: 
-  html:
-    theme: litera
-    echo: false
-    warning: false
-    message: false
-    fig-width: 11
-    fig-height: 9
-    embed-resources: false
-    page-layout: full
 
-website: 
-  navbar:
-    left:
-      - text: "Features"
-        icon: fa-atlas
-        href: ./features.html
+profile:
+  default: russian
+  group: [russian, english]
+  
+execute: 
+  echo: false
+  message: false
+  warning: false
+        
+format:
+  html:
+    theme: cosmo
+    embed-resources: true
+    page-layout: full

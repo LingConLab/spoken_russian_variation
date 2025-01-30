@@ -1,0 +1,19 @@
+project:
+  output-dir: ./docs/en
+  render:
+    - "*.qmd"
+
+
+website:
+  title: "Atlas of variation in spoken varieties of Russian"
+  navbar:
+    left:
+      - href: index.qmd
+        text: home
+      - href: features.qmd
+        text: features
+    right:
+      - text: "ru"
+        href: ./../index.html
+
+lang: en
