@@ -1,6 +1,6 @@
 ---
 title: Numeral construction
-author: Chiara Naccarato, Svetlana Zemicheva
+author: Chiara Naccarato
 date: 'Last update: `r lubridate::make_datetime(year = 2024, month = 12, day = 1)`'
 output:
   html_document:
