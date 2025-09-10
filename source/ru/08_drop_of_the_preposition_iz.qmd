@@ -16,7 +16,7 @@ readxl::read_xlsx('../../data/data.xlsx') |>
   db
 ```
 
-Здесь будет описание
+NA
 
 ##
 

@@ -16,7 +16,7 @@ readxl::read_xlsx('../../data/data.xlsx') |>
   db
 ```
 
-Here will be short text
+Numeral constructions in Russian have a complex syntax, so bilinguals often use non-standard constructions, for  example, *три месяц*, *тринадцать девчонки*.
 
 ##
 

@@ -16,7 +16,7 @@ readxl::read_xlsx('../../data/data.xlsx') |>
   db
 ```
 
-Here will be short text
+Paucal numerals *два*, *три*, *четыре*, and those containing them as components (e.g., *двадцать два*, *двадцать три*, etc.)  have a peculiar syntactic relations with nouns. In the dialects of the Russian-Belarusian border region, nouns of the masculine and  neuter genders can take the genitive singular case when used with these numerals, as in standard Russian (*два мужика*, *два окна*) or the nominative singular case, as in Belarusian (*два мужики*, *два окны*).
 
 ##
 
