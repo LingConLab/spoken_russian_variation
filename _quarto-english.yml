@@ -1,8 +1,9 @@
 project:
   output-dir: ./docs/en
   render:
-    - "*.qmd"
-
+    - "index.qmd"
+    - "features.qmd"
+    - "./source/en/*.qmd"
 
 website:
   title: "Atlas of variation in spoken varieties of Russian"

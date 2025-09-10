@@ -22,6 +22,15 @@ output:
 
 Билингвы --- носители одного или нескольких языков России, для которых русский является неродным, или вторым (Я2, L2); материалы билингвальной речи собраны в Дагестане, Карелии, Башкортостане, Удмуртии, Чувашии, Марий Эл, Ханты-Мансийске, а также цыганском поселении на территории г. Перми. Диалектные материалы записаны от сельских жителей следующих областей: Архангельской, Новгородской, Псковской, Тверской, Костромской, Ивановской, Смоленской, Калужской, Рязанской, Брянской, Липецкой, Белгородской, Ростовской, а также г. Звенигород и окружающих его деревень Московской области. 
 
+### Как ссылаться на ресурс
+
+Г. Мороз, М. Алимова, А. Гришанова, Н. Кошелюк, А. Яковлева, С. Земичева, К. Наккарато. (2025). Атлас вариативности устной речи в регионах России. Москва: Linguistic Convergence Laboratory, HSE University.
+
+
+### Финансовая поддержка
+
+Исследование выполнено за счет гранта Российского научного фонда № 24-28-01097, <https://rscf.ru/project/24-28-01097/> 
+
 :::
 
 ::: {.content-visible when-profile="english"} 
@@ -31,9 +40,9 @@ Here will be long text
 
 ### How to cite
 
-G. Moroz, A. Grishanova, N. Koshelyuk, A. Yakovleva, S. Zemicheva, C. Naccarato. Atlas of variation patterns in spoken corpora of Russian. Moscow: Linguistic Convergence Laboratory, HSE University.
+G. Moroz, M. Alimova, A. Grishanova, N. Koshelyuk, A. Yakovleva, S. Zemicheva, C. Naccarato. (2025). Atlas of variation patterns in spoken corpora of Russian. Moscow: Linguistic Convergence Laboratory, HSE University.
   
 ### Financial support
 
-The study conducted in Linguistic Convergence Laboratory and was funded by the Russian Science Foundation, project No.  24-28-01097, <https://rscf.ru/en/project/24-28-01097/>
+The study conducted in Linguistic Convergence Laboratory and was funded by the Russian Science Foundation, project No. 24-28-01097, <https://rscf.ru/en/project/24-28-01097/>
 :::

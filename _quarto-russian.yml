@@ -1,7 +1,9 @@
 project:
   output-dir: ./docs
   render:
-    - "*.qmd"
+    - "index.qmd"
+    - "features.qmd"
+    - "./source/ru/*.qmd"
 
 website:
   title: "Атлас вариативности устной речи в регионах России"
