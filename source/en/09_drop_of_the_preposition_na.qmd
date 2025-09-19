@@ -16,7 +16,7 @@ readxl::read_xlsx('../../data/data.xlsx') |>
   db
 ```
 
-NA
+As in *выставке был недавно* (Lately I was _on_ the exhibition).
 
 ##
 

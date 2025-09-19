@@ -16,7 +16,7 @@ readxl::read_xlsx('../../data/data.xlsx') |>
   db
 ```
 
-NA
+As in *Чебоксары тут у нас многие* (There are a lot of people _from_ Cheboksary).
 
 ##
 

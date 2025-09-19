@@ -16,7 +16,7 @@ readxl::read_xlsx('../../data/data.xlsx') |>
   db
 ```
 
-NA
+Например, *голове не держится*.
 
 ##
 

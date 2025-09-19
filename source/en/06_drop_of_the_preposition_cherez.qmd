@@ -16,7 +16,7 @@ readxl::read_xlsx('../../data/data.xlsx') |>
   db
 ```
 
-NA
+As in *десять дней пошли мы* (We went _after_ ten days).
 
 ##
 

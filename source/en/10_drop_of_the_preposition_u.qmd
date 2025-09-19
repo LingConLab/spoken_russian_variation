@@ -16,7 +16,7 @@ readxl::read_xlsx('../../data/data.xlsx') |>
   db
 ```
 
-NA
+As in *меня пятеро детей тоже вот* (I have five children).
 
 ##
 

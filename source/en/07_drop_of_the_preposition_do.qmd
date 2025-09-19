@@ -16,7 +16,7 @@ readxl::read_xlsx('../../data/data.xlsx') |>
   db
 ```
 
-NA
+As in *Нижний Новгород не надо доезжать* (No need to drive _to_ Nizhniy Novgorod).
 
 ##
 

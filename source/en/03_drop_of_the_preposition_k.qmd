@@ -16,7 +16,7 @@ readxl::read_xlsx('../../data/data.xlsx') |>
   db
 ```
 
-NA
+As in *Жених приходит к бабе* (Fiance comes to a woman).
 
 ##
 
