@@ -16,7 +16,7 @@ readxl::read_xlsx('../../data/data.xlsx') |>
   db
 ```
 
-As in *родителями вместе живут они* (They lived _with_ their parents).
+As in *родителями вместе живут они* (They lived _with_ their parents).  (Chuvash-Russian bilingual)
 
 ##
 

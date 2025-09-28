@@ -16,7 +16,7 @@ readxl::read_xlsx('../../data/data.xlsx') |>
   db
 ```
 
-As in *голове не держится* (Cant keep _in_ mind).
+As in *голове не держится* (Cant keep _in_ mind) (Chuvash-Russian bilingual).
 
 ##
 

@@ -16,7 +16,8 @@ readxl::read_xlsx('../../data/data.xlsx') |>
   db
 ```
 
-Numeral constructions in Russian have a complex syntax, so bilinguals often use non-standard constructions, for  example, *три месяц*, *тринадцать девчонки*.
+Numeral constructions in Russian have a complex syntax, so bilinguals often use non-standard constructions, for example, *три месяц* *tri mesjac(Nom)* – standard *tri mesjaca(Gen)* (three months) (Karel-Russian bilingual)
+
 
 ##
 

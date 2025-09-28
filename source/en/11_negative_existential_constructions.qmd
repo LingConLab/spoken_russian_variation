@@ -16,7 +16,7 @@ readxl::read_xlsx('../../data/data.xlsx') |>
   db
 ```
 
-Non-standard marking of negated subjects in existential constructions is a common feature in the Russian speech of bilinguals. A tendency to use nominative subjects instead of Standard Russian genitive of negation has been noted for several varieties of bilingual Russian.
+Non-standard marking of negated subjects in existential constructions is a common feature in the Russian speech of bilinguals. A tendency to use nominative subjects instead of Standard Russian genitive of negation has been noted for several varieties of bilingual Russian. For example, *gaz(Nom) ne bylo* standard *gaza(Gen) ne bylo* (there was no gas) (Chuvash-Russian bilingual)
 
 ##
 
